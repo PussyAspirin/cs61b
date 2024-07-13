@@ -99,6 +99,7 @@ public class IntList {
         //TODO:  fill in method
         if (A == null) return B;
         return new IntList(A.first, catenate(A.rest, B));
+
     }
 
 
